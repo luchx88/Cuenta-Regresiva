@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  background-image: radial-gradient(circle, #ffffff, #75aadb);
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  width: 600px;
+  height: 700px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #E6F4F1;
+  border-radius: 20px;
+  padding: 10px;
+  border: 4px solid rgb(62, 103, 236);
+}
+.container img {
+  border-radius: 20px;
+  
+}
+.container img:nth-child(1) {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+.container img:nth-child(2){
+  width: 350px;
+}
+.countdown-container {
+  width: 400px;
+  text-align:center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Architects Daughter', cursive;
+  color:rgb(53, 87, 200);
+  
+}
